@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: chat - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/chat.res" /d "NDEBUG" "D:\avm\avm2\software\Chat\chat.rc"" 
+Creating temporary file "c:\PROGRA~2\Temp\RSP4B.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/chat.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\avm\avm2\software\Chat\chat.cpp"
+"D:\avm\avm2\software\Chat\chatDlg.cpp"
+"D:\avm\avm2\software\Chat\ClientSocket.cpp"
+"D:\avm\avm2\software\Chat\ConnectDlg.cpp"
+"D:\avm\avm2\software\Chat\HowToUseDlg.cpp"
+"D:\avm\avm2\software\Chat\MyEdit.cpp"
+"D:\avm\avm2\software\Chat\ServerInfoDllg.cpp"
+"D:\avm\avm2\software\Chat\ServerSocket.cpp"
+"D:\avm\avm2\software\Chat\TalkDlg.cpp"
+]
+Creating command line "cl.exe @c:\PROGRA~2\Temp\RSP4B.tmp" 
+Creating temporary file "c:\PROGRA~2\Temp\RSP4C.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/chat.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\avm\avm2\software\Chat\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\PROGRA~2\Temp\RSP4C.tmp" 
+Creating temporary file "c:\PROGRA~2\Temp\RSP4D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/chat.pdb" /machine:I386 /out:"Release/chat.exe" 
+.\Release\chat.obj
+.\Release\chatDlg.obj
+.\Release\ClientSocket.obj
+.\Release\ConnectDlg.obj
+.\Release\HowToUseDlg.obj
+.\Release\MyEdit.obj
+.\Release\ServerInfoDllg.obj
+.\Release\ServerSocket.obj
+.\Release\StdAfx.obj
+.\Release\TalkDlg.obj
+.\Release\chat.res
+]
+Creating command line "link.exe @c:\PROGRA~2\Temp\RSP4D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+chat.cpp
+chatDlg.cpp
+ClientSocket.cpp
+ConnectDlg.cpp
+HowToUseDlg.cpp
+MyEdit.cpp
+ServerInfoDllg.cpp
+ServerSocket.cpp
+D:\avm\avm2\software\Chat\ServerSocket.cpp(130) : warning C4101: 'ChatPort' : unreferenced local variable
+D:\avm\avm2\software\Chat\ServerSocket.cpp(129) : warning C4101: 'defaultBuf' : unreferenced local variable
+TalkDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+chat.exe - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: chat - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/chat.res" /d "_DEBUG" "D:\avm\avm2\software\Chat\chat.rc"" 
+Creating temporary file "c:\PROGRA~2\Temp\RSP4F.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/chat.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\avm\avm2\software\Chat\chat.cpp"
+"D:\avm\avm2\software\Chat\chatDlg.cpp"
+"D:\avm\avm2\software\Chat\ClientSocket.cpp"
+"D:\avm\avm2\software\Chat\ConnectDlg.cpp"
+"D:\avm\avm2\software\Chat\HowToUseDlg.cpp"
+"D:\avm\avm2\software\Chat\MyEdit.cpp"
+"D:\avm\avm2\software\Chat\ServerInfoDllg.cpp"
+"D:\avm\avm2\software\Chat\ServerSocket.cpp"
+"D:\avm\avm2\software\Chat\TalkDlg.cpp"
+]
+Creating command line "cl.exe @c:\PROGRA~2\Temp\RSP4F.tmp" 
+Creating temporary file "c:\PROGRA~2\Temp\RSP50.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/chat.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\avm\avm2\software\Chat\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\PROGRA~2\Temp\RSP50.tmp" 
+Creating temporary file "c:\PROGRA~2\Temp\RSP51.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/chat.pdb" /debug /machine:I386 /out:"Debug/chat.exe" /pdbtype:sept 
+.\Debug\chat.obj
+.\Debug\chatDlg.obj
+.\Debug\ClientSocket.obj
+.\Debug\ConnectDlg.obj
+.\Debug\HowToUseDlg.obj
+.\Debug\MyEdit.obj
+.\Debug\ServerInfoDllg.obj
+.\Debug\ServerSocket.obj
+.\Debug\StdAfx.obj
+.\Debug\TalkDlg.obj
+.\Debug\chat.res
+]
+Creating command line "link.exe @c:\PROGRA~2\Temp\RSP51.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+chat.cpp
+chatDlg.cpp
+ClientSocket.cpp
+ConnectDlg.cpp
+HowToUseDlg.cpp
+MyEdit.cpp
+ServerInfoDllg.cpp
+ServerSocket.cpp
+D:\avm\avm2\software\Chat\ServerSocket.cpp(130) : warning C4101: 'ChatPort' : unreferenced local variable
+D:\avm\avm2\software\Chat\ServerSocket.cpp(129) : warning C4101: 'defaultBuf' : unreferenced local variable
+TalkDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+chat.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
